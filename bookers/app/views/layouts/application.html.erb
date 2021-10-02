@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+  <body>
+    <% flash.each do |message_type, message| %>
+      <%= message %>
+    <% end %>
+  </body>
+
 <html>
   <head>
     <title>Bookers</title>
